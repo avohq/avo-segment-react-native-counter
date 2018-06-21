@@ -37,6 +37,18 @@
       "optional": false,
       "builtIn": "NotBuiltIn",
       "list": false
+    },
+    "1efbfa7c-d432-4f7f-a071-93145bf5f7be": {
+      "id": "1efbfa7c-d432-4f7f-a071-93145bf5f7be",
+      "name": "Some trait",
+      "description": "",
+      "type": "string",
+      "sendAs": "user",
+      "validations": [],
+      "analyticsTools": [],
+      "optional": false,
+      "builtIn": "NotBuiltIn",
+      "list": false
     }
   },
   "events": {
@@ -80,6 +92,28 @@
       "order": 2,
       "types": [
         "Identify"
+      ]
+    },
+    "ac13e321-a618-4de2-9e47-9c75d19bbe12": {
+      "id": "ac13e321-a618-4de2-9e47-9c75d19bbe12",
+      "name": "Add Trait",
+      "description": "",
+      "properties": {
+        "1efbfa7c-d432-4f7f-a071-93145bf5f7be": {
+          "id": "1efbfa7c-d432-4f7f-a071-93145bf5f7be",
+          "description": ""
+        }
+      },
+      "order": 3
+    },
+    "77d77acd-b140-4207-b38e-20966848a780": {
+      "id": "77d77acd-b140-4207-b38e-20966848a780",
+      "name": "Log out",
+      "description": "",
+      "properties": {},
+      "order": 4,
+      "types": [
+        "Unidentify"
       ]
     }
   }

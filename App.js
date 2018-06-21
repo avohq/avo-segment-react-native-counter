@@ -26,6 +26,8 @@ export default class App extends Component<Props> {
         <Button title="+" onPress={() => Avo.increment(0, 1)} />
         <Button title="-" onPress={() => Avo.decrement(0, 1)} />
         <Button title="Sign in" onPress={() => Avo.signIn('userId')} />
+        <Button title="Log out" onPress={() => Avo.logOut()} />
+        <Button title="Add Trait" onPress={() => Avo.addTrait('Some trait')} />
       </View>
     );
   }
