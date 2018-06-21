@@ -679,15 +679,11 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-avo-analytics-react-native@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/avo-analytics-react-native/-/avo-analytics-react-native-1.1.0.tgz#906663a67339e213dec32f4fa825693b6782b75a"
-
 avo-assert-js@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/avo-assert-js/-/avo-assert-js-1.3.0.tgz#4042ea60a132d1b07c6e4b66eb010c3fd2ee17b9"
 
-avo-react-native-analytics-segment-io@^1.1.0:
+avo-react-native-analytics-segment-io@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/avo-react-native-analytics-segment-io/-/avo-react-native-analytics-segment-io-1.1.0.tgz#6a9e70044717dd5dbabf1d47abe472332dd495e3"
 
@@ -4261,7 +4257,7 @@ react-is@^16.3.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
-react-native-analytics-segment-io@^3.1.3:
+react-native-analytics-segment-io@3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/react-native-analytics-segment-io/-/react-native-analytics-segment-io-3.1.3.tgz#5823f70245acb45365404f4ff2425d4b2b1651e4"
 
