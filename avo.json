@@ -1,0 +1,86 @@
+{
+  "types": [
+    {
+      "type": "string"
+    },
+    {
+      "type": "int"
+    },
+    {
+      "type": "float"
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "properties": {
+    "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7": {
+      "id": "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7",
+      "name": "Old Value",
+      "description": "",
+      "type": "int",
+      "sendAs": "event",
+      "validations": [],
+      "analyticsTools": [],
+      "optional": false,
+      "builtIn": "NotBuiltIn",
+      "list": false
+    },
+    "db2090c1-2981-48b1-9ceb-9a98f3c4291a": {
+      "id": "db2090c1-2981-48b1-9ceb-9a98f3c4291a",
+      "name": "New Value",
+      "description": "",
+      "type": "int",
+      "sendAs": "event",
+      "validations": [],
+      "analyticsTools": [],
+      "optional": false,
+      "builtIn": "NotBuiltIn",
+      "list": false
+    }
+  },
+  "events": {
+    "b5f863fd-a2c5-49e3-8414-c646ab69c161": {
+      "id": "b5f863fd-a2c5-49e3-8414-c646ab69c161",
+      "name": "Increment",
+      "description": "",
+      "properties": {
+        "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7": {
+          "id": "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7",
+          "description": ""
+        },
+        "db2090c1-2981-48b1-9ceb-9a98f3c4291a": {
+          "id": "db2090c1-2981-48b1-9ceb-9a98f3c4291a",
+          "description": ""
+        }
+      },
+      "order": 0
+    },
+    "d1f95b86-35db-4397-9bc2-9411bde7aa48": {
+      "id": "d1f95b86-35db-4397-9bc2-9411bde7aa48",
+      "name": "Decrement",
+      "description": "",
+      "properties": {
+        "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7": {
+          "id": "8c7f3fcb-1d68-4e2a-af42-ffa5dff724a7",
+          "description": ""
+        },
+        "db2090c1-2981-48b1-9ceb-9a98f3c4291a": {
+          "id": "db2090c1-2981-48b1-9ceb-9a98f3c4291a",
+          "description": ""
+        }
+      },
+      "order": 1
+    },
+    "db3461b4-ad9a-4b48-b93f-8cef70b522bc": {
+      "id": "db3461b4-ad9a-4b48-b93f-8cef70b522bc",
+      "name": "Sign In",
+      "description": "",
+      "properties": {},
+      "order": 2,
+      "types": [
+        "Identify"
+      ]
+    }
+  }
+}
